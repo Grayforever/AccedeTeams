@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cofoundry.Web.Admin" Version="0.7.0" />
+    <PackageReference Include="VueCliMiddleware" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccedeTeams.Domain\AccedeTeams.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>
